@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap");
+@font-face {
+    font-family: "Spotify Regular";
+    src: url("./assets/fonts/GothamBook.ttf");
+}
+
+@font-face {
+    font-family: "Spotify Bold";
+    src: url("./assets/fonts/GothamBold.ttf");
+}
+
+body {
+    background-color: #111 !important;
+}
+
+* {
+    font-family: "Spotify Regular";
+    margin: 0;
+    padding: 0;
+}
+
+.text--bold {
+    font-family: "Spotify Bold";
+}
+
+p {
+    margin-bottom: 0 !important;
+}

@@ -1,0 +1,51 @@
+.card__container {
+    background-color: #1e1e1e;
+    width: 185px;
+    max-width: 190px;
+    height: 270px;
+    max-height: 300px;
+    padding: 16px;
+    color: #fff;
+    border-radius: 3%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card__container:hover {
+    background-color: #2e2e2e;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+
+.card__image--div {
+    position: relative;
+}
+
+.card__image--div>img {
+    border-radius: 3%;
+    width: 150px;
+    text-align: center;
+}
+
+.card__content__title {
+    font-family: "Spotify Bold";
+    font-size: 14px;
+}
+
+.card__content__text {
+    font-size: 13px;
+    color: #ccc;
+}
+
+.play--icon {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    font-size: 40px !important;
+    color: #1db954;
+    visibility: hidden;
+}
+
+.card__container:hover .play--icon {
+    visibility: visible;
+}

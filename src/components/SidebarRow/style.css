@@ -1,0 +1,31 @@
+.sidebar__row {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 45px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.sidebar__row:nth-child(2) {
+    background-color: #282828;
+}
+
+.sidebar__row:nth-child(1) .sidebar__row__label {
+    color: #fff;
+}
+
+.sidebar__row:hover {
+    background-color: #282828;
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.sidebar__row__label {
+    font-size: 14px;
+    font-family: "Spotify Bold";
+    color: #999;
+    margin-top: 6px;
+    margin-left: 16px;
+}

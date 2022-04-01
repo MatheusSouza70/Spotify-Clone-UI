@@ -1,0 +1,94 @@
+.footer {
+    background-color: #282828;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+    justify-content: space-between;
+    border-top: 2px solid #000;
+}
+
+.controls {
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+}
+
+.controls-icon {
+    margin: 0 20px;
+    font-size: 25px !important;
+    color: #999;
+}
+
+.main--icon {
+    font-size: 40px !important;
+}
+
+.range {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #999;
+    height: 5px;
+    -webkit-appearance: none;
+    outline: none !important;
+}
+
+.volume-controls-icon {
+    margin: 0 10px;
+    color: #999;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    appearance: none;
+    background: #4caf50 !important;
+    cursor: pointer;
+}
+
+.volume {
+    background: #1db954;
+}
+
+.mobile-footer {
+    display: none !important;
+    visibility: hidden;
+    position: absolute;
+}
+
+@media only screen and (max-width: 768px) {
+    .song-info,
+    .controls,
+    .volume-controls {
+        display: none !important;
+        visibility: hidden;
+        position: absolute;
+    }
+    .mobile-footer {
+        display: flex !important;
+        justify-content: space-between !important;
+        flex: 1 !important;
+        visibility: visible !important;
+        position: sticky;
+    }
+    .link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12px;
+    }
+    .link>p {
+        font-family: "Spotify Bold";
+        color: #999;
+    }
+    .footer {
+        padding: 10px;
+    }
+    .footer-icon {
+        color: #999;
+        font-size: 30px !important;
+    }
+    .spotify-icon {
+        width: 30px;
+    }
+}
