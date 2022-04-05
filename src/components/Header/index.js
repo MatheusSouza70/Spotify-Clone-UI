@@ -29,7 +29,7 @@ function Header() {
                     fontFamily: "Spotify Bold",
                   }}
                 >
-                  Corporação Cápsula
+                  Theorycraft Team
                 </span>
               </Dropdown.Toggle>
 

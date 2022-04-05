@@ -5,11 +5,12 @@ function SpotifyLogo() {
   return (
     <div className="spotify__logo__div text-center" style={{ padding: 25 }}>
       <Image
-        src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
-        alt=""
+        src="https://pbs.twimg.com/media/EW_1SgtXsAAX2de.png"
+        alt="sprintfy"
         className="img-fluid"
-        style={{ width: 140 }}
+        style={{ width: 60 }}
       />
+      <p>Sprintfy</p>
     </div>
   );
 }

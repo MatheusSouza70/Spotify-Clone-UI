@@ -24,18 +24,20 @@ function Footer() {
               src={require("../../assets/images/hiphop/1.jpg").default}
               alt=""
               className="img-fluid"
-              style={{ width: 60 }}
+              style={{ width: 40 }}
             />
           </div>
           <div className="song-name d-flex align-items-center">
             <div className="mr-4">
-              <p style={{ fontSize: 14, fontFamily: "Spotify Bold" }}>Big Poppa</p>
+              <p style={{ fontSize: 14, fontFamily: "Spotify Bold" }}>
+                Big Poppa
+              </p>
               <span style={{ fontSize: 13, fontFamily: "Spotify Regular" }}>
-              Notorius B.I.G
+                Notorius B.I.G
               </span>
             </div>
             <FavoriteBorderIcon
-              style={{ fontSize: 20, marginRight: 15, color: "#999" }}
+              style={{ fontSize: 20, marginRight: 15, color: "#eef10a" }}
             />
             <LaptopIcon style={{ fontSize: 20, color: "#999" }} />
           </div>
@@ -50,7 +52,7 @@ function Footer() {
           </div>
           <div className="duration">
             <span style={{ fontSize: 13, marginRight: 5 }}>0:00</span>
-            <input type="range" defaultValue={0} className="range" />
+            <input type="range" defaultValue={1} className="range" />
             <span style={{ fontSize: 13, marginLeft: 5 }}>4:22</span>
           </div>
         </div>

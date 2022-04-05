@@ -18,7 +18,7 @@ function Sidebar() {
       <PlayList />
       <div className="install__app__div">
         <GetAppIcon className="install__app__icon" />
-        Install App
+        Instalar App
       </div>
     </div>
   );

@@ -1,3 +1,10 @@
+// A data obedece uma ordem em linha e coluna.
+// cada linha (1,2,3,4...) tem sua foto respectiva e cada coluna (1,2,3,4...) também possui uma foto respectiva
+// Para alterar uma foto, deve ir em assets/images/(nome da coluna)/{número da imagem}.jpg e substitui-la.
+// Um exemplo: Quero alterar a primera foto da primeira coluna (Recomendados), devo substituir a primeira foto
+// da pasta charts com outra foto de tamanho igual.
+
+// O mesmo exemplo vale para todas as outras imagens.
 const data = [
   {
     id: 1,
@@ -66,7 +73,6 @@ const data = [
     subtitle: "Podcasts que achamos que você vai gostar...",
     title: "Para escutar na ida ao trabalho",
     cards: [
-      
       {
         image: "row_3_2",
         label: "Flow Podcast",
@@ -194,7 +200,8 @@ const data = [
       {
         image: "row_6_6",
         label: "Sono REM",
-        description: "Obtenha as ondas de sono do seu cérebro da maneira certa!",
+        description:
+          "Obtenha as ondas de sono do seu cérebro da maneira certa!",
       },
       {
         image: "row_6_7",

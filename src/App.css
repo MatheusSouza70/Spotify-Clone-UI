@@ -1,24 +1,24 @@
 .app__container {
-    display: flex;
-    overflow: hidden;
+  display: flex;
+  overflow: hidden;
 }
 
 .view__container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin-left: 230px;
-    height: 100%;
-    background-color: #111;
-    margin-bottom: 90px;
-    margin-top: 60px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-left: 230px;
+  height: 100%;
+  background-color: #111;
+  margin-bottom: 90px;
+  margin-top: 60px;
+  padding: 20px;
 }
 
 @media only screen and (max-width: 768px) {
-    .view__container {
-        margin-left: 0;
-        margin-bottom: 60px;
-        margin-top: 0;
-    }
+  .view__container {
+    margin-left: 0;
+    margin-bottom: 60px;
+    margin-top: 0;
+  }
 }

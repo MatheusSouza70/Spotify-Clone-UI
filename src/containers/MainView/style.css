@@ -1,17 +1,17 @@
 .main--row--container {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .settings--icon {
-    /* position: absolute !important; */
-    display: none !important;
-    visibility: hidden;
+  /* position: absolute !important; */
+  display: none !important;
+  visibility: hidden;
 }
 
 @media only screen and (max-width: 768px) {
-    .settings--icon {
-        display: block !important;
-        visibility: visible;
-        margin-bottom: 60px;
-    }
+  .settings--icon {
+    display: block !important;
+    visibility: visible;
+    margin-bottom: 60px;
+  }
 }
