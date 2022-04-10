@@ -16,4 +16,8 @@
   <p>https://www.spotify.com/br/</p>
   <h2 align="start">Vídeos Utilizados (Playlist)</h2>
   <p>https://www.youtube.com/watch?v=rkZEWuMRY28&list=PLTXFz3WKxvNJq8OFqDnmTmrBO9S2DfS7O</p>
+  <h2 align="start">Links</h2>
+  <p>Hospedado no Netlify: https://benevolent-cuchufli-b0366c.netlify.app</p>
+  <h2 align="start">Equipe</h2>
+  <p> Desenvolvido por <a href="https://github.com/MatheusSouza70"> Matheus Dutra Souza</a>, <a href="https://github.com/RodrigoAnjos2004"> Rodrigo Silva dos Anjos  </a> e <a href="https://github.com/LiR4"> Pedro Henrique Lira Da Silva Bispo </a>
 </div>
