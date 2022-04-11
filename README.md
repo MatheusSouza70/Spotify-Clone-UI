@@ -1,4 +1,4 @@
-<img align="center" src="https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png" >
+<img align="center" src="https://pbs.twimg.com/media/EW_1SgtXsAAX2de.png" >
 <h1 align="center"> Sprintfy </h1>
 <div align="center">
 
