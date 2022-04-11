@@ -1,5 +1,7 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=fff&height=170&section=header&text=Sprintfy&fontSize=30&fontColor=0e1921  "/>
+<div align="center">
 <img align="center" src="https://pbs.twimg.com/media/EW_1SgtXsAAX2de.png" >
-<h1 align="center"> Sprintfy </h1>
+</div>
 <div align="center">
 
   ![ Badge ](https://img.shields.io/badge/Made%20in-VSCode-1f425f.svg)<br>
@@ -21,3 +23,5 @@
   <h2 align="start">Equipe</h2>
   <p> Desenvolvido por <a href="https://github.com/MatheusSouza70"> Matheus Dutra Souza</a>, <a href="https://github.com/RodrigoAnjos2004"> Rodrigo Silva dos Anjos  </a> e <a href="https://github.com/LiR4"> Pedro Henrique Lira Da Silva Bispo </a>
 </div>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=fff&height=190&section=footer&text=copyright @(Equipe)&fontSize=20&fontColor=0e1921 "/>
