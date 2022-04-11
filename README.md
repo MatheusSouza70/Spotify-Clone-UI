@@ -1,5 +1,5 @@
 <img align="center" src="https://logodownload.org/wp-content/uploads/2020/03/listen-on-spotify-3.png" >
-<h1 align="center"> Clone IU - Sprintfy </h1>
+<h1 align="center"> Sprintfy </h1>
 <div align="center">
 
   ![ Badge ](https://img.shields.io/badge/Made%20in-VSCode-1f425f.svg)<br>
